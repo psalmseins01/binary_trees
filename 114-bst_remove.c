@@ -1,6 +1,7 @@
 #include "binary_trees.h"
 /**
- * successor - Gets the next successor, i.e., the minimum node in the right subtree.
+ * successor - Gets the next successor, i.e.,
+ * the minimum node in the right subtree.
  * @node: Tree to check.
  *
  * Return: The minimum value of this tree.
@@ -25,7 +26,8 @@ int successor(bst_t *node)
 
 }
 /**
- * two_children - Gets the next successor by using the minimum value in the right subtree,
+ * two_children - Gets the next successor by
+ * using the minimum value in the right subtree,
  * then replaces the node value with this successor.
  * @root: Node that has two children.
  *
